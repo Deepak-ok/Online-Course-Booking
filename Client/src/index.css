@@ -1,0 +1,40 @@
+@import "tailwindcss";
+
+/* login button property start */
+@layer components {
+  .btn-primary {
+    border-radius: calc(infinity * 1px);
+    background-color: var(--color-blue-400);
+    padding-inline: --spacing(5);
+    padding-block: --spacing(2);
+    font-weight: var(--font-weight-semibold);
+    color: var(--color-white);
+    box-shadow: var(--shadow-md);
+    /* &:hover {
+      @media (hover: hover) {
+        background-color: var(--color-blue-700);
+      }
+    } */
+  }
+}  /* login button property end */
+
+
+@keyframes marquee {
+  from {
+    transform: translateX(0);
+  }
+
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+.animate-marquee {
+  animation: marquee 25s linear infinite;
+   width: max-content;
+}
+
+.animate-marquee:hover {
+  animation-play-state: paused;
+}
+

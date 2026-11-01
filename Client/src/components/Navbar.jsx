@@ -1,5 +1,5 @@
 
-import React from 'react'
+
 import logo from "../assets/logo.jpg"
 import { Link } from 'react-router-dom'
 
@@ -29,7 +29,7 @@ export default function Navbar() {
           </li>
 
           <li>
-            <Link to="/cour/courseses" className="transition duration-300 hover:text-blue-600">
+            <Link to="/course" className="transition duration-300 hover:text-blue-600">
               Course
             </Link>
           </li>

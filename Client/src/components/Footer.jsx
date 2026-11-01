@@ -1,20 +1,10 @@
-
-import React from 'react'
 import logo from '../assets/logo.jpg'
 
 export default function Footer() {
     return (
         <footer className="w-full bg-white text-black py-10 px-6 ">
 
-            <div className="
-        max-w-7xl mx-auto 
-        grid
-        grid-cols-1
-        sm:grid-cols-2
-        lg:grid-cols-4
-        gap-8
-        lg:gap-12
-      ">
+            <div className=" max-w-7xl mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 lg:gap-12">
 
                 {/*  Logo Section */}
                 <div className='w-45 h-45'>

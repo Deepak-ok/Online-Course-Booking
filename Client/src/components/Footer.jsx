@@ -44,7 +44,7 @@ export default function Footer() {
                         About
                     </a>
 
-                    <a href="#" className="block font-light hover:text-blue-400 hover:translate-x-1 transition-all duration-300">
+                    <a href="/course" className="block font-light hover:text-blue-400 hover:translate-x-1 transition-all duration-300">
                         Course
                     </a>
                 </div>

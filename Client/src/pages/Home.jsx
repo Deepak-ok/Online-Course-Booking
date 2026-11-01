@@ -135,7 +135,7 @@ export default function Home() {
         w-full 
         mx-auto 
      '>
-       <a href="">
+       <a href="/course">
          <h1 className='flex justify-center p-6 font-semibold text-4xl sm:text-md md:text-2xl'>
           <span className='cursor-pointer hover:underline hover:text-blue-400 transition delay-0 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110'>
             Explore More Courses

@@ -6,6 +6,7 @@ import tutor3 from '../assets/tutor3.jpg'
 export default function About() {
     return (
         <>
+            {/* About us start */}
             <div className="
           flex flex-col justify-center items-center
           w-full min-h-[500px]
@@ -40,41 +41,48 @@ export default function About() {
                 </h6>
 
             </div>
+            {/* About us end */}
 
 
+            {/* Our Team start */}
             <div className='  m-10 grid grid-rows-2'>
                 <h1 className=' flex justify-center font-semibold text-2xl text-blue-400 mb-5'>Our Team</h1>
 
                 <h2 className='flex justify-center font-bold text-5xl text-black'>It’s All About The Learners</h2>
             </div>
+            {/* our team end */}
 
-            <div className=" bg-blue-100 w-full  h-15px mx-auto  p-[70px] grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6  ">
+            {/* poster and journey start */}
+            <div className=' bg-blue-100 w-full  h-15px mx-auto p-[40px]' >
+                    
+                    {/* poster start */}
+                <div className="  grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6  ">
 
-                <div className="  rounded-xl p-8">
-                    <img className=" w-full h-52 object-cover rounded-t-lg" src={tutor1} alt="tutor1" />
-                    <h2 className=' bg-blue-200 text-lg p-2'>Marry Grin  </h2>
-                    <h1 className='bg-white text-cover font-bold text-2xl p-2'>Head Of Courses</h1>
-                    <p className='bg-white rounded-b-2xl p-2 text-lg font-light'>Merry Grin focuses on learners satisfaction through exceptional support and success strategies </p>
+                    <div className="rounded-xl p-8">
+                        <img className=" w-full h-52 object-cover rounded-t-lg" src={tutor1} alt="tutor1" />
+                        <h2 className=' bg-blue-200 text-lg p-2'>Marry Grin  </h2>
+                        <h1 className='bg-white text-cover font-bold text-2xl p-2'>Head Of Courses</h1>
+                        <h4 className='bg-white rounded-b-2xl px-2 '>Merry Grin focuses on learners satisfaction through exceptional support and success strategies </h4>
+                    </div>
+
+                    <div className="  rounded-xl p-8">
+                        <img className=" w-full h-52 object-cover rounded-t-lg" src={tutor2} alt="tutor1" />
+                        <h2 className=' bg-blue-200 text-lg p-2'>Marry Grin  </h2>
+                        <h1 className='bg-white text-cover font-bold text-2xl p-2'>Head Of Courses</h1>
+                        <h4 className='bg-white rounded-b-2xl px-2 '>Merry Grin focuses on learners satisfaction through exceptional support and success strategies </h4>
+                    </div>
+
+                    <div className="  rounded-xl p-8">
+                        <img className=" w-full h-52 object-cover rounded-t-lg" src={tutor3} alt="tutor1" />
+                        <h2 className=' bg-blue-200 text-lg p-2'>Marry Grin  </h2>
+                        <h1 className='bg-white text-cover font-bold text-2xl p-2'>Head Of Courses</h1>
+                        <h4 className='bg-white rounded-b-2xl px-2 '>Merry Grin focuses on learners satisfaction through exceptional support and success strategies </h4>
+                    </div>
                 </div>
-
-                <div className="  rounded-xl p-8">
-                    <img className=" w-full h-52 object-cover rounded-t-lg" src={tutor2} alt="tutor1" />
-                    <h2 className=' bg-blue-200 text-lg p-2'>Marry Grin  </h2>
-                    <h1 className='bg-white text-cover font-bold text-2xl p-2'>Head Of Courses</h1>
-                    <p className='bg-white rounded-b-2xl p-2 text-lg font-light'>Merry Grin focuses on learners satisfaction through exceptional support and success strategies </p>
-                </div>
-
-                <div className="  rounded-xl p-8">
-                    <img className=" w-full h-52 object-cover rounded-t-lg" src={tutor3} alt="tutor1" />
-                    <h2 className=' bg-blue-200 text-lg p-2'>Marry Grin  </h2>
-                    <h1 className='bg-white text-cover font-bold text-2xl p-2'>Head Of Courses</h1>
-                    <p className='bg-white rounded-b-2xl p-2 text-lg font-light'>Merry Grin focuses on learners satisfaction through exceptional support and success strategies </p>
-                </div>
-
-
+                    {/* poster end */}
 
             </div>
-
+            {/* poster and journey end */}
 
 
         </>

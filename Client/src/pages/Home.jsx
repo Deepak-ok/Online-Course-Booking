@@ -131,10 +131,19 @@ export default function Home() {
       </div>
 
       {/* Cards Section */}
-      <div className=" bg-blue-100
-        w-full  h-15px
+      <div className=' bg-blue-100 
+        w-full 
         mx-auto 
-      p-[70px]
+     '>
+       <a href="">
+         <h1 className='flex justify-center p-6 font-semibold text-4xl sm:text-md md:text-2xl'>
+          <span className='cursor-pointer hover:underline hover:text-blue-400 transition delay-0 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110'>
+            Explore More Courses
+          </span>
+        </h1>
+       </a>
+
+        <div className=" px-15 py-10 pb-15
         grid
         grid-cols-1
         sm:grid-cols-2
@@ -142,46 +151,48 @@ export default function Home() {
         gap-6
       ">
 
-        <div className="
+
+          <div className="
           bg-white
            shadow-blue-100 shadow-lg 
           rounded-xl
           p-8
           text-center
         ">
-          <img className="w-full h-40 object-contain" src={javaImage} alt="Java" />
-        </div>
+            <img className="w-full h-40 object-contain" src={javaImage} alt="Java" />
+          </div>
 
-        <div className="
+          <div className="
           bg-white
           shadow-2xl shadow-blue-100
           rounded-xl
           p-8
           text-center
         ">
-          <img className="w-full h-40 object-contain" src={cp} alt="C++" />
-        </div>
+            <img className="w-full h-40 object-contain" src={cp} alt="C++" />
+          </div>
 
-        <div className="
+          <div className="
           bg-white
           shadow-2xl shadow-blue-100
           rounded-xl
           p-8
           text-center
         ">
-          <img className="w-full h-40 object-contain" src={pyImages} alt="Py" />
-        </div>
+            <img className="w-full h-40 object-contain" src={pyImages} alt="Py" />
+          </div>
 
-        <div className="
+          <div className="
           bg-white
           shadow-2xl shadow-blue-100
           rounded-xl
           p-8
           text-center
         ">
-          <img className="w-full h-40 object-contain" src={c} alt="C" />
-        </div>
+            <img className="w-full h-40 object-contain" src={c} alt="C" />
+          </div>
 
+        </div>
       </div>
     </>
   )

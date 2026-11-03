@@ -6,17 +6,20 @@ import Footer from './components/Footer'
 import About from './pages/About'
 import Register from './pages/Register'
 import Course from './pages/Course'
+import AdminDashboard from './pages/admin/AdminDashboard'
+
 import AddCourse from './pages/admin/AddCourse'
 
 export default function App() {
 
   const location = useLocation()
+    const hideNAvbar = ['/adminDashboard','/addCourse'].includes(location.pathname)
 
-  const hideFooter = ['/login', '/register', '/addCourse'].includes(location.pathname)
+  const hideFooter = ['/login', '/register', '/adminDashboard','/addCourse'].includes(location.pathname)
 
   return (
     <div>
-      <Navbar />
+      {!hideNAvbar && <Navbar />}
 
       <Routes>
         <Route path='/' element={<Home />} />
@@ -24,10 +27,13 @@ export default function App() {
         <Route path='/course' element={<Course />} />
         <Route path='/login' element={<Login />} />
         <Route path='/register' element={<Register />} />
-        <Route path='/addCourse' element={<AddCourse />} />
+        <Route path='/adminDashboard' element={<AdminDashboard />} />
+         <Route path='/addCourse' element={<AddCourse />} />
       </Routes>
 
       {!hideFooter && <Footer />}
+
+   
     </div>
   )
 }

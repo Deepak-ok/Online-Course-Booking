@@ -33,89 +33,191 @@ export default function Course() {
                 {/* poster start */}
                 <div className="  grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6  ">
                     {/* 1 */}
-                    <a href="https://www.youtube.com/watch?v=PymbRTMb4hY&list=PL78RhpUUKSweClRi_l05UgfE3053-zkRf">
-                        <div className="rounded-xl p-8 ">
-                            <img className=" w-full h-52 object-cover rounded-t-2xl sm:h-auto" src={java} alt="tutor1" />
-                            {/* <h2 className=' bg-blue-200 text-lg p-2 font-semibold'>Core Java Fundametals  </h2> */}
-                            {/* <h1 className='bg-white text-cover font-bold text-2xl p-2'>Head Of Courses</h1> */}
-                            <h4 className='font-semibold bg-blue-200 rounded-bl-2xl p-2 '>Java Complete Basics to Advanced with 100+ programs <br />
-                                <span className="font-light">Complete code by prasanth sir</span> <br />
-                                <span className="cursor-pointer font-light hover:underline hover:text-blue-500">View full courses</span>
-                            </h4>
+                    <a href="https://www.youtube.com/watch?v=PymbRTMb4hY&list=PL78RhpUUKSweClRi_l05UgfE3053-zkRf" target="_blank" rel="noopener noreferrer"
+                        className="block w-full min-w-0"
+                    >
+                        <div className=" w-full min-w-0 overflow-hidden rounded-t-xl  rounded-bl-xl bg-white shadow-md hover:shadow-xl transition duration-300 ">
+
+                            {/* Course Image */}
+                            <img className=" block  w-full h-auto  max-w-full  object-contain "
+                                src={java}
+                                alt="Java Complete Course" />
+
+                            {/* Course Content */}
+                            <div className=" bg-blue-200  p-3  sm:p-4  md:p-5  break-words ">
+
+                                <h4 className=" font-semibold  text-sm  sm:text-base md:text-lg leading-relaxed ">
+                                    Java Complete Basics to Advanced with 100+ programs
+                                </h4>
+
+                                <p className="  font-light text-xs sm:text-sm  md:text-base  mt-2 ">
+                                    Complete code by Prasanth Sir
+                                </p>
+
+                                <p className="font-light text-xs sm:text-sm  mt-3 cursor-pointer  hover:underline hover:text-blue-600  ">
+                                    View full courses
+                                </p>
+
+                            </div>
                         </div>
                     </a>
                     {/* 1 */}
 
                     {/* 2 */}
-                    <a href="https://www.youtube.com/watch?v=PymbRTMb4hY&list=PL78RhpUUKSweClRi_l05UgfE3053-zkRf">
-                        <div className="rounded-xl p-8 ">
-                            <img className=" w-full h-52 object-cover rounded-t-2xl sm:h-auto" src={java} alt="tutor1" />
-                            {/* <h2 className=' bg-blue-200 text-lg p-2 font-semibold'>Core Java Fundametals  </h2> */}
-                            {/* <h1 className='bg-white text-cover font-bold text-2xl p-2'>Head Of Courses</h1> */}
-                            <h4 className='font-semibold bg-blue-200 rounded-bl-2xl p-2 '>Java Complete Basics to Advanced with 100+ programs <br />
-                                <span className="font-light">Complete code by prasanth sir</span> <br />
-                                <span className="cursor-pointer font-light hover:underline hover:text-blue-500">View full courses</span>
-                            </h4>
+                     <a href="https://www.youtube.com/watch?v=PymbRTMb4hY&list=PL78RhpUUKSweClRi_l05UgfE3053-zkRf" target="_blank" rel="noopener noreferrer"
+                        className="block w-full min-w-0"
+                    >
+                        <div className=" w-full min-w-0 overflow-hidden rounded-t-xl  rounded-bl-xl bg-white shadow-md hover:shadow-xl transition duration-300 ">
+
+                            {/* Course Image */}
+                            <img className=" block  w-full h-auto  max-w-full  object-contain "
+                                src={java}
+                                alt="Java Complete Course" />
+
+                            {/* Course Content */}
+                            <div className=" bg-blue-200  p-3  sm:p-4  md:p-5  break-words ">
+
+                                <h4 className=" font-semibold  text-sm  sm:text-base md:text-lg leading-relaxed ">
+                                    Java Complete Basics to Advanced with 100+ programs
+                                </h4>
+
+                                <p className="  font-light text-xs sm:text-sm  md:text-base  mt-2 ">
+                                    Complete code by Prasanth Sir
+                                </p>
+
+                                <p className="font-light text-xs sm:text-sm  mt-3 cursor-pointer  hover:underline hover:text-blue-600  ">
+                                    View full courses
+                                </p>
+
+                            </div>
                         </div>
                     </a>
                     {/* 2 */}
 
 
                     {/* 3 */}
-                    <a href="https://www.youtube.com/watch?v=PymbRTMb4hY&list=PL78RhpUUKSweClRi_l05UgfE3053-zkRf">
-                        <div className="rounded-xl p-8 ">
-                            <img className=" w-full h-52 object-cover rounded-t-2xl sm:h-auto" src={java} alt="tutor1" />
-                            {/* <h2 className=' bg-blue-200 text-lg p-2 font-semibold'>Core Java Fundametals  </h2> */}
-                            {/* <h1 className='bg-white text-cover font-bold text-2xl p-2'>Head Of Courses</h1> */}
-                            <h4 className='font-semibold bg-blue-200 rounded-bl-2xl p-2 '>Java Complete Basics to Advanced with 100+ programs <br />
-                                <span className="font-light">Complete code by prasanth sir</span> <br />
-                                <span className="cursor-pointer font-light hover:underline hover:text-blue-500">View full courses</span>
-                            </h4>
+                      <a href="https://www.youtube.com/watch?v=PymbRTMb4hY&list=PL78RhpUUKSweClRi_l05UgfE3053-zkRf" target="_blank" rel="noopener noreferrer"
+                        className="block w-full min-w-0"
+                    >
+                        <div className=" w-full min-w-0 overflow-hidden rounded-t-xl  rounded-bl-xl bg-white shadow-md hover:shadow-xl transition duration-300 ">
+
+                            {/* Course Image */}
+                            <img className=" block  w-full h-auto  max-w-full  object-contain "
+                                src={java}
+                                alt="Java Complete Course" />
+
+                            {/* Course Content */}
+                            <div className=" bg-blue-200  p-3  sm:p-4  md:p-5  break-words ">
+
+                                <h4 className=" font-semibold  text-sm  sm:text-base md:text-lg leading-relaxed ">
+                                    Java Complete Basics to Advanced with 100+ programs
+                                </h4>
+
+                                <p className="  font-light text-xs sm:text-sm  md:text-base  mt-2 ">
+                                    Complete code by Prasanth Sir
+                                </p>
+
+                                <p className="font-light text-xs sm:text-sm  mt-3 cursor-pointer  hover:underline hover:text-blue-600  ">
+                                    View full courses
+                                </p>
+
+                            </div>
                         </div>
                     </a>
                     {/* 3 */}
 
 
                     {/* 4 */}
-                    <a href="https://www.youtube.com/watch?v=PymbRTMb4hY&list=PL78RhpUUKSweClRi_l05UgfE3053-zkRf">
-                        <div className="rounded-xl p-8 ">
-                            <img className=" w-full h-52 object-cover rounded-t-2xl sm:h-auto" src={java} alt="tutor1" />
-                            {/* <h2 className=' bg-blue-200 text-lg p-2 font-semibold'>Core Java Fundametals  </h2> */}
-                            {/* <h1 className='bg-white text-cover font-bold text-2xl p-2'>Head Of Courses</h1> */}
-                            <h4 className='font-semibold bg-blue-200 rounded-bl-2xl p-2 '>Java Complete Basics to Advanced with 100+ programs <br />
-                                <span className="font-light">Complete code by prasanth sir</span> <br />
-                                <span className="cursor-pointer font-light hover:underline hover:text-blue-500">View full courses</span>
-                            </h4>
+                      <a href="https://www.youtube.com/watch?v=PymbRTMb4hY&list=PL78RhpUUKSweClRi_l05UgfE3053-zkRf" target="_blank" rel="noopener noreferrer"
+                        className="block w-full min-w-0"
+                    >
+                        <div className=" w-full min-w-0 overflow-hidden rounded-t-xl  rounded-bl-xl bg-white shadow-md hover:shadow-xl transition duration-300 ">
+
+                            {/* Course Image */}
+                            <img className=" block  w-full h-auto  max-w-full  object-contain "
+                                src={java}
+                                alt="Java Complete Course" />
+
+                            {/* Course Content */}
+                            <div className=" bg-blue-200  p-3  sm:p-4  md:p-5  break-words ">
+
+                                <h4 className=" font-semibold  text-sm  sm:text-base md:text-lg leading-relaxed ">
+                                    Java Complete Basics to Advanced with 100+ programs
+                                </h4>
+
+                                <p className="  font-light text-xs sm:text-sm  md:text-base  mt-2 ">
+                                    Complete code by Prasanth Sir
+                                </p>
+
+                                <p className="font-light text-xs sm:text-sm  mt-3 cursor-pointer  hover:underline hover:text-blue-600  ">
+                                    View full courses
+                                </p>
+
+                            </div>
                         </div>
                     </a>
                     {/* 4 */}
 
 
                     {/* 5 */}
-                    <a href="https://www.youtube.com/watch?v=PymbRTMb4hY&list=PL78RhpUUKSweClRi_l05UgfE3053-zkRf">
-                        <div className="rounded-xl p-8 ">
-                            <img className=" w-full h-52 object-cover rounded-t-2xl sm:h-auto" src={java} alt="tutor1" />
-                            {/* <h2 className=' bg-blue-200 text-lg p-2 font-semibold'>Core Java Fundametals  </h2> */}
-                            {/* <h1 className='bg-white text-cover font-bold text-2xl p-2'>Head Of Courses</h1> */}
-                            <h4 className='font-semibold bg-blue-200 rounded-bl-2xl p-2 '>Java Complete Basics to Advanced with 100+ programs <br />
-                                <span className="font-light">Complete code by prasanth sir</span> <br />
-                                <span className="cursor-pointer font-light hover:underline hover:text-blue-500">View full courses</span>
-                            </h4>
+                     <a href="https://www.youtube.com/watch?v=PymbRTMb4hY&list=PL78RhpUUKSweClRi_l05UgfE3053-zkRf" target="_blank" rel="noopener noreferrer"
+                        className="block w-full min-w-0"
+                    >
+                        <div className=" w-full min-w-0 overflow-hidden rounded-t-xl  rounded-bl-xl bg-white shadow-md hover:shadow-xl transition duration-300 ">
+
+                            {/* Course Image */}
+                            <img className=" block  w-full h-auto  max-w-full  object-contain "
+                                src={java}
+                                alt="Java Complete Course" />
+
+                            {/* Course Content */}
+                            <div className=" bg-blue-200  p-3  sm:p-4  md:p-5  break-words ">
+
+                                <h4 className=" font-semibold  text-sm  sm:text-base md:text-lg leading-relaxed ">
+                                    Java Complete Basics to Advanced with 100+ programs
+                                </h4>
+
+                                <p className="  font-light text-xs sm:text-sm  md:text-base  mt-2 ">
+                                    Complete code by Prasanth Sir
+                                </p>
+
+                                <p className="font-light text-xs sm:text-sm  mt-3 cursor-pointer  hover:underline hover:text-blue-600  ">
+                                    View full courses
+                                </p>
+
+                            </div>
                         </div>
                     </a>
                     {/* 5 */}
 
 
                     {/* 6 */}
-                    <a href="https://www.youtube.com/watch?v=PymbRTMb4hY&list=PL78RhpUUKSweClRi_l05UgfE3053-zkRf">
-                        <div className="rounded-xl p-8 ">
-                            <img className=" w-full h-52 object-cover rounded-t-2xl sm:h-auto" src={java} alt="tutor1" />
-                            {/* <h2 className=' bg-blue-200 text-lg p-2 font-semibold'>Core Java Fundametals  </h2> */}
-                            {/* <h1 className='bg-white text-cover font-bold text-2xl p-2'>Head Of Courses</h1> */}
-                            <h4 className='font-semibold bg-blue-200 rounded-bl-2xl p-2 '>Java Complete Basics to Advanced with 100+ programs <br />
-                                <span className="font-light">Complete code by prasanth sir</span> <br />
-                                <span className="cursor-pointer font-light hover:underline hover:text-blue-500">View full courses</span>
-                            </h4>
+                     <a href="https://www.youtube.com/watch?v=PymbRTMb4hY&list=PL78RhpUUKSweClRi_l05UgfE3053-zkRf" target="_blank" rel="noopener noreferrer"
+                        className="block w-full min-w-0"
+                    >
+                        <div className=" w-full min-w-0 overflow-hidden rounded-t-xl  rounded-bl-xl bg-white shadow-md hover:shadow-xl transition duration-300 ">
+
+                            {/* Course Image */}
+                            <img className=" block  w-full h-auto  max-w-full  object-contain "
+                                src={java}
+                                alt="Java Complete Course" />
+
+                            {/* Course Content */}
+                            <div className=" bg-blue-200  p-3  sm:p-4  md:p-5  break-words ">
+
+                                <h4 className=" font-semibold  text-sm  sm:text-base md:text-lg leading-relaxed ">
+                                    Java Complete Basics to Advanced with 100+ programs
+                                </h4>
+
+                                <p className="  font-light text-xs sm:text-sm  md:text-base  mt-2 ">
+                                    Complete code by Prasanth Sir
+                                </p>
+
+                                <p className="font-light text-xs sm:text-sm  mt-3 cursor-pointer  hover:underline hover:text-blue-600  ">
+                                    View full courses
+                                </p>
+
+                            </div>
                         </div>
                     </a>
                     {/* 6 */}
